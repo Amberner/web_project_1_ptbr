@@ -25,7 +25,6 @@
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 .header__square-pic {
-  height: 568x;
   width: 568px;
 }
 /* logo's property*/
