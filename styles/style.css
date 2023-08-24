@@ -64,6 +64,7 @@
   text-decoration: none;
   color: #2f80ed;
   margin: 0;
+  display: block; 
 }
 
 .header__main-illustration {
