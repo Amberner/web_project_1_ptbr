@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendendo a aprender</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img
           class="logo logo_place_header"
-          src="./images/logo_place_header.png"
+          src="./vendor/images/logo_place_header.png"
           alt="logo da Practicum no cabeçalho"
-        >
+        />
         <h1 class="header__title">Aprendendo a Aprender</h1>
         <h2 class="header__subtitle">
           As técnicas de aprendizado mais eficazes que você pode aplicar ao seu
           cotidiano.
-            <a class="header__link" href="#">Saiba mais &rarr;</a>
+          <a class="header__link" href="#">Saiba mais &rarr;</a>
         </h2>
         <img
           class="header__main-illustration"
-          src="./images/header-image.png"
+          src="./vendor/images/header-image.png"
           alt="Ponderador épico no alto de uma montanha deliberando
             sobre os pontos mais refinados do sistema educacional moderno,
             enquanto também se questiona sobre de onde aquele quadrado
             azul gigante veio "
-        >
-        <div class="header__square"></div>
+        />
+        <div class="header__square header__square_rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -64,6 +64,138 @@
               </p>
             </div>
           </div>
+        </section>
+
+        <section class="techniques">
+          <h2 class="section-title">Aprender Técnicas</h2>
+          <h3 class="section-subtitle">
+            As Cinco estratégias de Barbara Oakley
+          </h3>
+          <div class="cards">
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../vendor/images/images_sprint-3/cards-attention.png"
+                alt="livro branco com o titulo 101 essays that will change the way
+              you think"
+              />
+              <h4 class="cards__title">As Duas Maneiras de Pensar</h4>
+              <p class="cards__description">
+                Uma compreensão profunda surge da capacidade de alternar entre o
+                pensamento difuso e o focado.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../vendor/images/images_sprint-3/cards-recall.png"
+                alt="escultura de um ser pensante"
+              />
+              <h4 class="cards__title">Recordar</h4>
+              <p class="cards__description">
+                Melhorar sua capacidade de para recordar pequenas informações
+                importantes ajuda a conectar diferentes partes do cérebro.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../vendor/images/images_sprint-3/cards-interleaving.png"
+                alt="um grande salão arquitetado"
+              />
+              <h4 class="cards__title">Intercalar</h4>
+              <p class="cards__description">
+                Quando você aprende diferentes habilidades ao mesmo tempo, elas
+                fortalecem umas às outras.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../vendor/images/images_sprint-3/cards-question.png"
+                alt="sala vazia com alguém no centro dessa sala"
+              />
+              <h4 class="cards__title">Questões</h4>
+              <p class="cards__description">
+                Quando estiver escutando seu professor, pense em uma boa
+                pergunta, algo que você realmente gostaria de saber.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../vendor/images/images_sprint-3/cards-competence.png"
+                alt="uma mão segurando o maior poder do mundo, o conhecimento em formas de livros"
+              />
+              <h4 class="cards__title">Ilusão da Competência</h4>
+              <p class="cards__description">
+                Teste a si mesmo, anote, fale com outra pessoa e repita o
+                processo de diferentes situações. Somente assim você vai ter
+                certeza de que entendeu alguma coisa.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="video">
+          <h2 class="section-title">Conversas TED</h2>
+          <h3 class="section-subtitle">Para os amantes da procrastinação</h3>
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/5MgBikgcWnY?si=lohJDaPcQSR475-n&amp;start=206"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/arj7oStGLkU?si=5XczFmaZiwYScqUw&amp;start=34"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">A história de Barbara Oakley</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                A matemática não veio naturalmente para Barbara na infância. Ela
+                se identificava mais com ciências humanas, e que não era muito
+                brilhante nisso. Com o objetivo de se especializar em
+                linguística, após terminar seus estudos, ela se alistou no
+                Exército, que a enviou para aprender russo. Após vários anos de
+                serviço, tornando-se capitã, Barbara deixou o Exército e decidiu
+                estudar engenharia. Foi nesta época que ela desenvolveu a
+                metodologia de aprendizagem, pois precisou reprogramar seu
+                cérebro para um tipo diferente de aprendizagem. Quando algo não
+                ocorre naturalmente, então é preciso trabalhar duro para obter o
+                conhecimento que outras pessoas podem obter rapidamente, dando
+                assim uma visão mais profunda e abrangente do assunto.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="feynman">
+          <h2 class="feynman__title">A Técnica de Feynman</h2>
+          <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+          <a class="feynman__link" href="#">Mais &rarr;</a>
+          <img
+            class="feynman__image"
+            src="./vendor/images/feynman.png"
+            alt="Uma foto
+            de Richard Feynman, um físico quântico mundialmente conhecido.
+            A Técnica Feynman deriva dos seus métodos de estudo quando
+            ele era um estudante em Princeton."
+          />
         </section>
         <section class="digits">
           <h2 class="section-title">Fatos e números</h2>
@@ -102,6 +234,7 @@
               </p>
               <p class="table-text">Banco Mundial, 2017</p>
             </li>
+
             <li class="table-cell">
               <h4 class="table-heading">26 anos de idade</h4>
               <p class="table-text">
@@ -122,18 +255,28 @@
             </li>
           </ul>
         </section>
-        <section class="feynman">
-          <h2 class="feynman__title">A Técnica de Feynman</h2>
-          <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
-          <a class="feynman__link" href="#">Mais &rarr;</a>
-          <img
-            class="feynman__image"
-            src="./images/feynman.png"
-            alt="Uma foto
-            de Richard Feynman, um físico quântico mundialmente conhecido.
-            A Técnica Feynman deriva dos seus métodos de estudo quando
-            ele era um estudante em Princeton."
-          >
+        <section class="khan">
+          <div class="khan__container">
+            <h3 class="khan__author">Salman Khan</h3>
+            <h2 class="khan__title">The One World Schoolhouse</h2>
+            <p class="khan__quote">
+              A paixão e inovação de Sal Khan é transformar o aprendizado para
+              milhões de estudantes no mundo todo. O livro The One World
+              Schoolhouse é uma leitura obrigatória para quem quer melhorar a
+              educação e que os estudantes habilidades e conhecimentos
+              necessários na escola, na carreira, e na vida em geral.
+            </p>
+            <h4 class="khan__quote-author">George Lucas</h4>
+            <h5 class="khan__quote-author-subline">Diretor</h5>
+            <div class="khan__book-container">
+              <img
+                class="khan__book-pic"
+                src="../vendor/images/images_sprint-3/khan-book-2.png"
+                alt="capa do livro the one World School house"
+              />
+              <a class="khan__buy-link" href="#">Comprar &rarr;</a>
+            </div>
+          </div>
         </section>
         <section class="kaufman">
           <h2 class="kaufman-title__theme_dark">
@@ -202,13 +345,45 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle">
+          <div class="kaufman__triangle kaufman__triangle_rotation">
             <img
-              src="./images/kaufman-triangle.svg"
+              src="./vendor/images/kaufman-triangle.svg"
               alt="Um
             grande triângulo azul, sobre o qual Josh Kaufman reclama
             propriedade"
-            >
+            />
+          </div>
+        </section>
+        <section class="resources">
+          <h2 class="section-title">Recursos úteis</h2>
+          <h3 class="section-subtitle">
+            Material adicional sobre técnicas e hacks de aprendizagem
+          </h3>
+          <div class="resources__logo-zone">
+            <a href="#"
+              ><img
+                class="resources__logo"
+                src="/vendor/images/images_sprint-3/logo/resources-tedED.png"
+                alt="logo da TEDEd"
+            /></a>
+            <a href="#"
+              ><img
+                class="resources__logo"
+                src="/vendor/images/images_sprint-3/logo/resources-Medium.png"
+                alt="logo da medium"
+            /></a>
+            <a href="#"
+              ><img
+                class="resources__logo"
+                src="/vendor/images/images_sprint-3/logo/resources-dezeen.png"
+                alt="logo da dezeen"
+            /></a>
+            <a href="#"
+              ><img
+                class="resources__logo"
+                src="/vendor/images/images_sprint-3/logo/resources-goodreads.png"
+                alt="logo da goodreads"
+            /></a>
           </div>
         </section>
       </main>
@@ -217,9 +392,9 @@
           <div class="footer__columns_content_copyright">
             <img
               class="logo_place_footer"
-              src="./images/logo_place_footer.png"
+              src="./vendor/images/logo_place_footer.png"
               alt="logo da Practicum no rodapé"
-            >
+            />
             <p class="footer__author">&copy; 2023 Abner Diniz</p>
           </div>
           <div class="footer__columns_content_about">
@@ -236,16 +411,16 @@
               <li class="footer__column-link">
                 <img
                   class="footer__social-icons"
-                  src="./images/facebook_white.svg"
+                  src="./vendor/images/facebook_white.svg"
                   alt="ícone do Facebook"
-                >Facebook
+                />Facebook
               </li>
               <li class="footer__column-link">
                 <img
                   class="footer__social-icons"
-                  src="./images/instagram_white.svg"
+                  src="./vendor/images/instagram_white.svg"
                   alt="íconer do Instagram"
-                >Instagram
+                />Instagram
               </li>
             </ul>
           </div>
