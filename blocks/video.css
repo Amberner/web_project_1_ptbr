@@ -35,8 +35,7 @@
 
 .video__iframe {
   border: 0;
-  width: 560px;
+  width: 515px;
   height: 315px;
   column-gap: 20px;
-  width: 515px;
 }
