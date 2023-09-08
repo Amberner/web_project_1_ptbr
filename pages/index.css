@@ -42,6 +42,11 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 3;
+}
+
+.section-title_theme_dark {
+  color: #fff;
 }
 
 .section-subtitle {
@@ -52,4 +57,52 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 3;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table_theme_dark {
+  margin-top: 80px;
+  row-gap: 80px;
 }
