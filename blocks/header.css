@@ -21,11 +21,14 @@
   /* parameters for the header section */
 }
 
-.logo_place_header {
+.logo {
   width: 154px;
   height: 31px;
   z-index: 2;
   position: absolute;
+}
+
+.logo_place_header {
   top: 30px;
   left: 64px;
 }
