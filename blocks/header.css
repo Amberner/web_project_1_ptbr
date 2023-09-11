@@ -49,7 +49,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 5;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -61,6 +61,7 @@
   margin: 0;
   display: block;
   transition: opacity 0.3s ease-in-out;
+  width: 117px;
 }
 
 .header__link:hover {
